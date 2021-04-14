@@ -1,0 +1,6 @@
+<h1>The random Beer</h1>
+{{#each beersFromApi}}
+    {{> beerpartial this}}
+<p>{{this.food_pairing}}</p>
+<p>{{this.brewers_tips}}</p>
+{{/each}}
